@@ -1,3 +1,4 @@
+import { SkiResortDetails } from './../resort/models/resortDetail';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -21,4 +22,10 @@ export class ResortService {
       return retVal;
     }));
 }
+getResort(skiResortId:number): Observable<SkiResortDetails> {
+  return this.http.get(`${baseUrl}/${skiResortId}`).pipe(map((data => {
+    return new SkiResortDetails(data);
+  })));
+}
+
 }

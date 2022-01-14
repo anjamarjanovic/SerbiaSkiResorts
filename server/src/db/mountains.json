@@ -7,7 +7,7 @@
  "highest_point": "Pancic's Peak",
  "top_elevation_m": "2017",
  "base_elevation_m": "1770",
- "picture": "assets/images/mountain/kopaonik.jpg"},
+ "picture": "assets/images/kopaonik.jpg"},
 
  {"_id": "1",
  "name": "Jahorina",
@@ -16,15 +16,15 @@
  "highest_point": "Ogorjelica",
  "top_elevation_m": "1916",
  "base_elevation_m": "1300",
- "picture": "assets/images/mountain/jahorina.jpg"},
+ "picture": "assets/images/jahorina.jpg"},
 
  {"_id": "2",
- "name": "Krvavec",
- "description": "The Krvavec Ski Resort is the second-largest Slovenian ski resort, located in the Municipality of Cerklje na Gorenjskem in the Kamnik–Savinja Alps. The nearest city is Kranj and it is 25 km from Ljubljana. The resort is located 10 km from Ljubljana Joze Pucnik Airport and it is the nearest ski resort to an international airport in Europe. It has a total 30 km of ski slopes. Today 95% of skiable area is covered with artificial snow.",
- "country": "Slovenia",
- "highest_point": "Krvavec",
- "top_elevation_m": "1971",
- "base_elevation_m": "1450",
- "picture": "assets/images/mountain/krvavec.jpg"}
+ "name": "Tornik",
+ "description": " Ski Resort Tornik is located on mountain Zlatibor. Zlatibor is one of the most beautiful mountains in Serbia.  The ski resort Tornik has a special type of installation, the so called tubing, which, as the chairlift itself, can be used during both summer and winter periods, and provides immense pleasure and excitement to all who decide to try it. The ski resort is equipped with a children's playground and a carousel.The ski resort Tornik has its own parking place.",
+ "country": "Serbia",
+ "highest_point": "Tornik",
+ "top_elevation_m": "1490",
+ "base_elevation_m": "1110",
+ "picture": "assets/images/tornik.jpg"}
 
 ]

@@ -8,6 +8,10 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ResortComponent } from './resort/resort.component';
 import { HomeComponent } from './home/home.component';
+import { PanelComponent } from './resort/panel/panel.component';
+import { TracksComponent } from './resort/tracks/tracks.component';
+import { WeatherComponent } from './resort/weather/weather.component';
+import { SkipassComponent } from './resort/skipass/skipass.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     FooterComponent,
     ResortComponent,
-    HomeComponent
+    HomeComponent,
+    PanelComponent,
+    TracksComponent,
+    WeatherComponent,
+    SkipassComponent
   ],
   imports: [
     BrowserModule,

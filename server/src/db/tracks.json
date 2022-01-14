@@ -98,7 +98,7 @@
 
 {"_id":"12",
  "mountain_id":"2",
- "name": "Dom - Kriska planina",
+ "name": "Krnevo plandiste",
  "length_km": "0.7",
  "rating": "6.5",
  "color": "blue"
@@ -106,7 +106,7 @@
 
 {"_id":"13",
  "mountain_id":"2",
- "name": "neteptani Zvoh (freeride)",
+ "name": "Zmajevac",
  "length_km": "1.8",
  "rating": "7.7",
  "color": "black"
@@ -114,7 +114,7 @@
 
 {"_id":"14",
  "mountain_id":"2",
- "name": "Hanek",
+ "name": "Cigota",
  "length_km": "0.7",
  "rating": "6.3",
  "color": "red"
@@ -122,7 +122,7 @@
 
 {"_id":"15",
  "mountain_id":"2",
- "name": "Vrh Krvavca - Gradisce - Tiha dolina",
+ "name": "Tornik",
  "length_km": "2.0",
  "rating": "9.2",
  "color": "blue"
