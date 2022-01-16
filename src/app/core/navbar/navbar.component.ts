@@ -1,21 +1,31 @@
-import { SkiResort } from './../../resort/models/resort';
 import { ResortService } from './../../services/resort.service';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Observable } from 'rxjs';
+import { map, shareReplay } from 'rxjs/operators';
+import { SkiResort } from 'src/app/resort/models/resort';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
 resorts:SkiResort[] = [];
-  constructor(private service:ResortService) { }
+  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
+    .pipe(
+      map(result => result.matches),
+      shareReplay()
+    );
 
-  ngOnInit(): void {
-    this.getNames()
-  }
+  constructor(private breakpointObserver: BreakpointObserver, private service:ResortService) {}
+ngOnInit(){
+  this.getNames()
+}
 getNames(){
-  this.service.getNames().subscribe((data:any)=>this.resorts= data)
+  this.service.getNames().subscribe((data:any)=>{
+    this.resorts = data;
+  })
 }
 
 }

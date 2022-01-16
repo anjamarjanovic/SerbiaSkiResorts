@@ -6,6 +6,7 @@ ul{
     list-style: none;
 a{
     text-decoration: none;
+    color: black;
 }
 }
 
@@ -14,3 +15,5 @@ body{
     --navbar-scroll-text: white;
     --navbar-scroll-shadow: none;
    }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
