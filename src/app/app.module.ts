@@ -20,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FormsModule } from '@angular/forms';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    FormsModule
+    FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

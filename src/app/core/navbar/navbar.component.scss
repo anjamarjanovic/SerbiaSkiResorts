@@ -34,12 +34,18 @@
  .nav-link{
   display: inline;
   margin: 0 10px;
-  color: black;
+  color: rgb(150, 147, 147);
   font-size:1.3em;
   text-decoration: none;
   font-family: $font-family-main;
   font-weight: 400;
+  &:hover{
+    background-image: linear-gradient(to right, red , yellow);
+   background-clip: text;
+   color: transparent;
+  }
  }
+ 
  
 @include mobile{
  

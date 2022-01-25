@@ -1,1 +1,29 @@
-<p>tracks works!</p>
+
+<div class="container">
+<form>
+    <div  class="form-group form-inline text">
+        Sort track: <select name="sort" class="form-control ml-3"[(ngModel)]="selectSort" (change)="changeSort()" >
+          <option selected value=""></option>
+          <option value="length_km">Length</option>
+          <option value="rating">Rating</option>
+        </select>
+    </div>
+  </form>
+  
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col"> Track Name</th>
+      <th scope="col">Length(km)</th>
+      <th scope="col">Rating</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let track of tracks">
+      <td>{{track.name}}</td>
+      <td>{{track.length_km}}</td>
+      <td>{{track.rating}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

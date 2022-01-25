@@ -1,0 +1,26 @@
+
+@import"/src/assets/style/vars";
+.panel{
+    padding: 35px 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+img{
+    display: block;
+    width: 50%;
+    height:100%;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+
+h2{
+    font-size: $font-size-md;
+}
+
+}

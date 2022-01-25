@@ -1,3 +1,62 @@
-<header>
-  <h1>Be the first <br> on the slaps</h1>
-</header>
+
+<ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators" >
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img  class="pic" [src]="images[0]" alt="Random slide">
+    </div>
+    <div class="carousel-caption">
+      <h1>Be the first</h1>
+      <h1>on the slaps</h1>
+      <p>A pair of skis are the ultimate transportation to Freedom.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img  class="pic" [src]="images[1]" alt="Random slide">
+    </div>
+    <div class="carousel-caption">
+      <h1>Ski into the sunset</h1>
+      <p class="gradient">Our tracks are open 24h. Night skiing? You have to try.<br> Get your ski passes early for the best rates & availability
+      </p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img  class="pic" [src]="images[2]" alt="Random slide">
+    </div>
+    <div class="carousel-caption">
+      <h1>Private lessons</h1>
+      <p>Whether you are learning the basics or mastering new terrain,<br> a private lesson offers a customizable experience to match your goals.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<section class="about">
+  <h2> Why skiing in Serbia?</h2>
+  <div class="container">
+    <div class="image">
+      <img src="../../assets/images/serbia ski.jpg" alt="serbiaskiing">
+   
+     </div>
+    <div class="text">
+     <p class="about-p">In Serbia (Srbija), you can look forward to 97 kilometres of slopes: the ski resorts are served by 85 ski lifts. Have lots of fun skiing in Serbia (Srbija)!
+       In the list of the best ski resorts in Serbia (Srbija), the ski resort Kopaonik is top with 3.3 out of 5 stars. The largest ski resorts offer up to 55 kilometres of slopes (Kopaonik). The highest ski resorts for skiing in Serbia (Srbija) extend up to an altitude of 2,017 metres (Kopaonik). And our tip for the best value for money is the ski resort Tornik - Zlatibor.</p>
+    </div>
+  </div>
+ 
+</section>
+<section class="statistic-section">
+  <h2>SkiResorts Overview</h2>
+<div class="table-box">
+    <div class="row">
+      <div class="col"> <span>2,017 m</span><p>The highest ski resort</p></div>
+      <div class="col"><span>55 km</span> <p>The largest ski resort</p></div>
+    </div>
+     <div class="row">
+    <div class="col"><span>97km</span><p> kilometres of slopes</p></div>
+    <div class="col"><span>85 </span> <p>ski-lifts</p></div>
+   </div>
+
+</div>
+</section>
+

@@ -89,42 +89,42 @@
 },
 
 {"_id":"11",
- "mountain_id":"2",
- "name": "Zvoh",
- "length_km": "1.7",
- "rating": "7.9",
- "color": "red"
-},
-
-{"_id":"12",
- "mountain_id":"2",
- "name": "Krnevo plandiste",
- "length_km": "0.7",
- "rating": "6.5",
- "color": "blue"
-},
-
-{"_id":"13",
- "mountain_id":"2",
- "name": "Zmajevac",
- "length_km": "1.8",
- "rating": "7.7",
- "color": "black"
-},
-
-{"_id":"14",
- "mountain_id":"2",
- "name": "Cigota",
- "length_km": "0.7",
- "rating": "6.3",
- "color": "red"
-},
-
-{"_id":"15",
- "mountain_id":"2",
- "name": "Tornik",
- "length_km": "2.0",
- "rating": "9.2",
- "color": "blue"
-}
-]
+    "mountain_id":"2",
+    "name": "Zvoh",
+    "length_km": "1.7",
+    "rating": "7.9",
+    "color": "red"
+   },
+   
+   {"_id":"12",
+    "mountain_id":"2",
+    "name": "Krnevo plandiste",
+    "length_km": "0.7",
+    "rating": "6.5",
+    "color": "blue"
+   },
+   
+   {"_id":"13",
+    "mountain_id":"2",
+    "name": "Zmajevac",
+    "length_km": "1.8",
+    "rating": "7.7",
+    "color": "black"
+   },
+   
+   {"_id":"14",
+    "mountain_id":"2",
+    "name": "Cigota",
+    "length_km": "0.7",
+    "rating": "6.3",
+    "color": "red"
+   },
+   
+   {"_id":"15",
+    "mountain_id":"2",
+    "name": "Tornik",
+    "length_km": "2.0",
+    "rating": "9.2",
+    "color": "blue"
+   }
+   ]

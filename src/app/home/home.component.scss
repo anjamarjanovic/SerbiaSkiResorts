@@ -1,16 +1,109 @@
-header{
-    background: url(/assets/images/cover1.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
+@import "/src/assets/style/mixins";
+@import "/src/assets/style/vars";
+
+
+ngb-carousel{
+    position: relative;
+    
+}
+ng-template{
+    background:whitesmoke;
+    position: relative;
+}
+.pic{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+
+}
+.carousel-caption{
+position: absolute;
+left: 40px;
+top: 40px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+height: 200px;
+}
+h1{
+    color: $primary-color;
+    font-size:5vw;
+    font-weight: 600;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+ &:last-of-type{
+    border-bottom: 1px solid white;
+
+ }
+}
+p{
+padding-top:50px;
+font-size: 2vw;
+color: $primary-color;
+text-align: left;
+ background-image: linear-gradient(to right, rgb(78, 73, 73), $primary-color);
+ background-clip:text;
+ color:transparent;
+}
+.about{
+    width: 100%;
+    padding: 100px 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-h1{
-    color: white;
-    font-size: 6em;
-    margin-left: 30px;
+    align-items: center;
+    background-color: $secondary-color;
+    h2{
+        font-size: 3vw;;
+        color: white;
+        margin-bottom: 40px;
+    }
+   .container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       width: 100%;
+       height: 100%;
+       padding: 0;
+   }
+    .image{
+        height: 100%;
+    img{
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
 }
+.text{
+    width: 50%;
+    height: 100%;
+    margin-left: 15px;
+    .about-p{
+        color: rgb(255, 255, 255);
+        padding: 10px 0; 
+        font-size: 1.5em;
+        line-height: 1em;
+        font-family: Arial, Helvetica, sans-serif
+    }
+}
+}
+
+.statistic-section{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 90vh;
+background-color:whitesmoke;
+}
+
+.table-box{
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    color: black;
 }
